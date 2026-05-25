@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HuseyincanErgin/LineSight/main/assets/linesight_banner.svg" alt="LineSight" width="100%">
+  <img src="https://raw.githubusercontent.com/HuseyincanErgin/LineSight/main/linesight_banner.svg" alt="LineSight" width="100%">
 </p>
 
 ## Production Quality Intelligence & Maintenance Decision Support
