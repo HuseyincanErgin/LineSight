@@ -1,15 +1,11 @@
 <div align="center">
 
-<img src="assets/linesight-banner.png" alt="LineSight Banner" width="100%">
-
-<br/>
-
 # 🛰️ LineSight
 
-### Production Quality Intelligence & Maintenance Decision Support
+## Production Quality Intelligence & Maintenance Decision Support
 
 <p>
-  A Python desktop decision-support system that transforms production inspection data into
+  <b>LineSight</b> is a Python desktop decision-support system that transforms production inspection data into
   <b>machine risk scores</b>, <b>Cp/Cpk capability insights</b>,
   <b>operator-shift performance signals</b>, and
   <b>AI-supported maintenance actions</b>.
@@ -24,7 +20,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-0f766e?style=for-the-badge&logo=plotly&logoColor=ffffff)
 ![Gemini AI](https://img.shields.io/badge/Gemini%20AI-6d28d9?style=for-the-badge&logo=google&logoColor=ffffff)
 
-<br/>
+<br/><br/>
 
 ![Decision Support](https://img.shields.io/badge/Desktop%20Decision%20Support-0891b2?style=flat-square)
 ![Machine Risk](https://img.shields.io/badge/Machine%20Risk%20Analysis-0f766e?style=flat-square)
@@ -39,11 +35,20 @@
 <br/>
 
 ```text
-┌───────────────────────────────────────────────────────────────────────────────┐
-│  🏭  Production Line Input  →  KPI Engine  →  Risk Scoring  →  AI Insight   │
-│                                                                               │
-│  CSV / Excel Data   →   Machine & Shift Analysis   →   Cp/Cpk   →   Report   │
-└───────────────────────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                 LineSight                                   ║
+║          Production Quality • Machine Risk • AI Maintenance Insight          ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║   🏭  Production Line Data                                                   ║
+║          │                                                                   ║
+║          ▼                                                                   ║
+║   📊  KPI Engine  →  ⚙️  Risk Scoring  →  📏  Cp/Cpk  →  🧠  AI Insight       ║
+║          │                                                                   ║
+║          ▼                                                                   ║
+║   📄  Executive Report + Maintenance Recommendation                          ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ### **See the line. Understand the risk. Improve the process.**
@@ -66,7 +71,7 @@ Instead of only showing raw tables, LineSight turns production data into a struc
 
 ## 2. Project Purpose
 
-In production environments, quality issues are rarely explained by only one metric.
+In production environments, quality problems are rarely explained by only one metric.
 
 A machine may have a high failure rate.  
 Another machine may fail less often but create higher cost.  
@@ -98,7 +103,7 @@ flowchart LR
 
 ## 3. Core Decision Logic
 
-LineSight is built around the idea of converting production signals into action.
+LineSight is built around converting production signals into action.
 
 <div align="center">
 
@@ -383,9 +388,6 @@ If no API key is provided, the application continues with its built-in rule-base
 
 ```text
 LineSight/
-│
-├── assets/
-│   └── linesight-banner.png
 │
 ├── LineSight_app.py
 │   └── Main desktop application
