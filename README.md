@@ -1,4 +1,4 @@
-[README (4).md](https://github.com/user-attachments/files/28236090/README.4.md)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/HuseyincanErgin/LineSight/main/linesight_banner.svg" alt="LineSight" width="100%">
 </p>
@@ -49,7 +49,18 @@ flowchart LR
 | **Operator / Shift** | Performance comparison, worst shift/operator detection |
 | **Process Capability** | Cp, Cpk and a capability verdict |
 | **AI Analysis** | Decision-focused maintenance recommendations |
+| **Raw Data** | Uploaded or demo-generated inspection data |
 | **Report Export** | Self-contained HTML executive report |
+
+---
+
+## What LineSight Calculates
+
+```
+Total Inspections · Pass / Fail Count · Pass Rate · Failure Rate
+Total Failure Cost · Total Downtime · Average Measurement
+Cp · Cpk · Cost per 1000 Units · Machine Criticality Score
+```
 
 ---
 
@@ -93,6 +104,21 @@ Missing optional columns are filled with safe defaults where possible.
 
 ---
 
+## Tech Stack
+
+| Technology | Role |
+|:---|:---|
+| **Python** | Main language |
+| **CustomTkinter** | Desktop interface |
+| **pandas** | Data cleaning, grouping, KPI calculation |
+| **NumPy** | Numerical ops + demo data generation |
+| **Matplotlib** | Embedded charts |
+| **Requests** | Gemini API communication |
+| **OpenPyXL** | Excel file support |
+| **Google Gemini API** | Optional AI-supported insight |
+
+---
+
 ## Installation
 
 ```bash
@@ -112,9 +138,17 @@ set GEMINI_API_KEY=your_api_key_here
 
 ---
 
-## Tech Stack
+## Example Output
 
-Python · CustomTkinter · pandas · NumPy · Matplotlib · Requests · OpenPyXL · Google Gemini API (optional)
+```
+Machine M03 has the highest criticality score — high failure rate,
+significant cost, downtime impact, and weak Cpk.
+
+Recommended action: check calibration, inspect tool condition,
+review setup parameters, monitor next batches with tighter SPC.
+```
+
+It works less like a dashboard, more like a small production analyst turning quality data into maintenance priorities.
 
 ---
 
