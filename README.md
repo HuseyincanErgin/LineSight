@@ -1,334 +1,192 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:1e1b4b,70:0f766e,100:38bdf8&height=230&section=header&text=LineSight&fontSize=68&fontColor=e0f2fe&fontAlignY=40&desc=Production%20Quality%20%26%20Maintenance%20Decision%20Support%20System&descAlignY=62&descColor=bae6fd&animation=fadeIn" />
+# LineSight
+
+### Production Quality Intelligence & Maintenance Decision Support
+
+**Turn production inspection data into machine risk scores, Cp/Cpk insights, shift performance signals, and AI-supported maintenance actions.**
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&lines=🏭+Production+Quality+Analytics;🧠+AI-Powered+Maintenance+Insights;📊+Cp+%2F+Cpk+Process+Capability+Analysis;⚙️+Machine+Risk+%26+Failure+Rate+Tracking;👥+Operator+%2F+Shift+Performance+Monitoring;📄+Automated+Executive+Report+Export)](https://git.io/typing-svg)
+![Python](https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=38BDF8)
+![Desktop App](https://img.shields.io/badge/Desktop%20Application-172554?style=for-the-badge&logo=windows&logoColor=white)
+![Quality Analytics](https://img.shields.io/badge/Quality%20Analytics-0F766E?style=for-the-badge)
+![Cp Cpk](https://img.shields.io/badge/Cp%20%2F%20Cpk-6D28D9?style=for-the-badge)
+![Gemini AI](https://img.shields.io/badge/Gemini%20AI-9333EA?style=for-the-badge&logo=google&logoColor=white)
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-&nbsp;
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-0F172A?style=for-the-badge&logo=windowsterminal&logoColor=38bdf8)
-&nbsp;
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-&nbsp;
-![Gemini AI](https://img.shields.io/badge/Gemini%20AI-8B5CF6?style=for-the-badge&logo=google&logoColor=white)
-
-<br/>
-
-![Desktop App](https://img.shields.io/badge/Desktop%20App-✓-0891b2?style=flat-square)
-&nbsp;
-![Decision Support](https://img.shields.io/badge/Decision%20Support-✓-0f766e?style=flat-square)
-&nbsp;
-![Quality Analytics](https://img.shields.io/badge/Quality%20Analytics-✓-2563eb?style=flat-square)
-&nbsp;
-![Cp Cpk](https://img.shields.io/badge/Cp%20%2F%20Cpk-✓-7c3aed?style=flat-square)
-&nbsp;
-![AI Insights](https://img.shields.io/badge/AI%20Insights-✓-9333ea?style=flat-square)
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                        LineSight                             │
+│      Production Quality • Machine Risk • AI Insights          │
+├──────────────────────────────────────────────────────────────┤
+│  Input     →  CSV / Excel production inspection data          │
+│  Analyze   →  Machines, operators, shifts, Cp/Cpk, failures   │
+│  Decide    →  Maintenance priority and quality actions        │
+│  Export    →  Executive-style HTML report                     │
+└──────────────────────────────────────────────────────────────┘
+```
 
 </div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🏭 Proje Hakkında — About the Project
-
-<table>
-<tr>
-<td valign="middle" width="60%">
-
-<br/>
-
-**LineSight**, üretim kalitesi ve bakım kararlarını desteklemek için geliştirilmiş Python tabanlı bir **masaüstü analiz uygulamasıdır**.
-
-Proje; üretim kontrol verilerini okuyarak makine bazlı arıza oranlarını, operatör ve vardiya performansını, toplam hata maliyetini, duruş sürelerini ve süreç kabiliyeti metriklerini analiz eder. Ayrıca Cp/Cpk hesaplamalarıyla sürecin ne kadar kararlı ve yeterli olduğunu değerlendirir.
-
-LineSight’ın temel amacı, ham üretim verisini yalnızca tablo olarak göstermek değil; bu veriyi **bakım önceliği, kalite riski ve yönetici seviyesinde karar hikayesine** dönüştürmektir.
 
 ---
 
-**LineSight** is a Python-based **desktop analytics application** developed to support production quality and maintenance decisions.
+## Overview
 
-The project reads production inspection data and analyzes machine-level failure rates, operator and shift performance, total failure cost, downtime, and process capability metrics. It also evaluates process stability and capability through Cp/Cpk calculations.
+**LineSight** is a Python-based desktop decision-support application designed for production quality and maintenance analysis.
 
-The main goal of LineSight is not only to display raw production data, but to transform it into a clear **maintenance priority, quality risk, and executive-level decision story**.
+The app reads production inspection data, calculates operational and quality-related KPIs, identifies risky machines, evaluates process capability with **Cp/Cpk**, compares operator and shift performance, and generates AI-supported maintenance recommendations.
 
-<br/>
+Instead of only showing raw data, LineSight focuses on one main question:
 
-</td>
-<td valign="middle" width="40%" align="center">
+> **Which machine, shift, or process area needs attention first — and why?**
 
-<br/>
+---
 
-```text
-┌────────────────────────────────┐
-│          LINESIGHT APP          │
-├────────────────────────────────┤
-│  Project Type   →  Desktop App │
-│  Language       →  Python      │
-│  Interface      →  CustomTkinter│
-│  Analytics      →  Pandas/NumPy│
-│  Charts         →  Matplotlib  │
-│  AI Layer       →  Gemini API  │
-│  Focus          →  Quality DSS │
-└────────────────────────────────┘
-```
+## Core Idea
 
-<br/>
+Manufacturing data often contains many signals: measurements, pass/fail results, machine IDs, operator IDs, shifts, failure costs, downtime values, and specification limits.
 
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## ✨ Özellikler — Features
-
-<br/>
-
-<div align="center">
-
-| Özellik | Açıklama |
-|:---|:---|
-| 🏠 **Executive Dashboard** | Toplam kontrol sayısı, geçme/kalma oranı, hata maliyeti ve genel kalite görünümü |
-| ⚙️ **Machine Risk Analysis** | Makine bazlı arıza oranı, maliyet, duruş süresi ve kritik skor hesaplama |
-| 👥 **Operator / Shift Performance** | Operatör ve vardiya bazında performans, hata oranı ve maliyet karşılaştırması |
-| 📏 **Cp / Cpk Analysis** | LSL/USL değerlerine göre süreç kabiliyeti hesaplama ve yorumlama |
-| 🧠 **AI-Powered Insights** | Google Gemini API ile üretim verilerine dayalı bakım ve kalite önerileri |
-| 📊 **Interactive Charts** | Matplotlib ile uygulama içine gömülü grafiksel analiz ekranları |
-| 📁 **CSV / Excel Upload** | Kullanıcıdan üretim verisi yükleme ve otomatik veri normalizasyonu |
-| 📄 **Report Export** | Analiz sonuçlarını yönetici raporu formatında dışa aktarma |
-| 🧪 **Demo Dataset** | Uygulamayı hızlı test etmek için hazır örnek üretim veri seti |
-| 🔐 **Demo Login Screen** | Masaüstü uygulama deneyimi için basit giriş ekranı |
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🧭 Uygulama Sayfaları — Application Pages
-
-<br/>
-
-<div align="center">
-
-| Sekme | Açıklama | Tab | Description |
-|:---:|:---|:---:|:---|
-| 🏠 | **Dashboard** — Genel KPI kartları ve üretim kalitesi özeti | Dashboard | General KPI cards and production quality summary |
-| ⚙️ | **Machine Analysis** — Makine bazlı risk, arıza ve maliyet analizi | Machine Analysis | Machine-based risk, failure, and cost analysis |
-| 👥 | **Operator / Shift** — Operatör ve vardiya performans karşılaştırması | Operator / Shift | Operator and shift performance comparison |
-| 📏 | **Process Capability** — Cp/Cpk, LSL/USL ve süreç kabiliyeti analizi | Process Capability | Cp/Cpk, LSL/USL, and capability analysis |
-| 🧠 | **AI Analysis** — Gemini destekli karar önerileri ve soru-cevap alanı | AI Analysis | Gemini-supported recommendations and Q&A area |
-| 📋 | **Raw Data** — Yüklenen veya demo olarak oluşturulan ham veri tablosu | Raw Data | Uploaded or demo-generated raw data table |
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 📊 Analiz Mantığı — Analytics Logic
-
-<br/>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏭 Machine Criticality
-
-LineSight, her makine için temel kalite ve bakım metriklerini hesaplar:
-
-- Inspection count  
-- Failure count  
-- Failure rate  
-- Failure cost  
-- Downtime minutes  
-- Average measurement  
-- Cp / Cpk  
-- Criticality score  
-
-Bu metrikler kullanılarak en riskli makineler önceliklendirilir.
-
-</td>
-<td width="50%" valign="top">
-
-### 📏 Process Capability
-
-Uygulama, ölçüm değerlerini LSL ve USL limitleriyle karşılaştırır.
+LineSight brings these signals together and converts them into a practical decision flow:
 
 ```text
-Cp  = (USL - LSL) / (6σ)
-
-Cpk = min(
-        (USL - μ) / (3σ),
-        (μ - LSL) / (3σ)
-      )
-```
-
-Bu sayede sürecin yalnızca hata üretip üretmediği değil, aynı zamanda ne kadar kararlı çalıştığı da yorumlanır.
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-
-```text
-Raw Production Data
-        │
-        ▼
+Production Data
+      ↓
 Data Cleaning & Normalization
-        │
-        ▼
+      ↓
+KPI Calculation
+      ↓
 Machine / Operator / Shift Analysis
-        │
-        ▼
-Cp / Cpk Process Capability Calculation
-        │
-        ▼
-Criticality Score & Risk Prioritization
-        │
-        ▼
+      ↓
+Cp & Cpk Capability Evaluation
+      ↓
+Criticality Scoring
+      ↓
 AI-Supported Maintenance Recommendations
-        │
-        ▼
-Executive Report Export
+      ↓
+HTML Report Export
 ```
 
-</div>
+---
 
-<br/>
+## Key Features
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+| Module | What it does |
+|:---|:---|
+| **Dashboard** | Shows overall production KPIs such as total inspections, pass rate, failure rate, cost, and downtime |
+| **Machine Analysis** | Calculates machine-level failure rate, failure cost, downtime, Cp/Cpk, and criticality score |
+| **Operator / Shift Analysis** | Compares operators and shifts based on failure rate, pass rate, cost, and average measurement |
+| **Process Capability** | Evaluates process performance using Cp and Cpk based on LSL and USL values |
+| **AI Analysis** | Uses Gemini AI or a built-in rule-based engine to generate maintenance and quality recommendations |
+| **Raw Data View** | Displays the uploaded or demo-generated production dataset |
+| **Report Export** | Exports a clean HTML report containing KPIs, AI insights, and analysis tables |
 
-## 🛠️ Teknoloji — Tech Stack
+---
 
-<br/>
+## What LineSight Calculates
 
-<div align="center">
-
-[![Skills](https://skillicons.dev/icons?i=python&theme=dark)](https://skillicons.dev)
-
-<br/>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-&nbsp;
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-Desktop%20UI-0f172a?style=for-the-badge)
-&nbsp;
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
-&nbsp;
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)
-&nbsp;
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-2563eb?style=for-the-badge)
-&nbsp;
-![Gemini](https://img.shields.io/badge/Google%20Gemini-AI%20Insights-8b5cf6?style=for-the-badge&logo=google&logoColor=white)
-
-</div>
-
-<br/>
-
-Bu projede temel yazılım dili olarak **Python** kullanılmıştır. Arayüz tarafında **CustomTkinter**, veri analizi tarafında **pandas** ve **NumPy**, grafikler için **matplotlib**, AI destekli analizler için ise opsiyonel olarak **Google Gemini API** kullanılmıştır.
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🚀 Nasıl Çalıştırılır — How to Run
-
-<br/>
-
-```bash
-# 1. Repoyu klonla / Clone the repository
-git clone https://github.com/HuseyincanErgin/LineSight.git
-
-# 2. Proje klasörüne gir / Go to project folder
-cd LineSight
-
-# 3. Gerekli kütüphaneleri yükle / Install required libraries
-pip install customtkinter pandas numpy matplotlib requests openpyxl reportlab
-
-# 4. Uygulamayı çalıştır / Run the app
-python LineSight_app.py
-```
-
-<br/>
-
-> 🔐 **Demo giriş bilgileri / Demo login credentials**
->
-> Username: `admin`  
-> Password: `admin`
-
-<br/>
-
-> 🧠 **Gemini AI kullanımı opsiyoneldir.**
->
-> Uygulama, Gemini API key girilmediğinde de kendi kural tabanlı analiz yapısıyla çalışabilir.  
-> Gemini kullanmak istersen API key değerini ortam değişkeni olarak tanımlayabilirsin:
->
-> ```bash
-> set GEMINI_API_KEY=your_api_key_here
-> ```
->
-> veya Python dosyasında ilgili alana ekleyebilirsin.  
-> Güvenlik için gerçek API key değerini GitHub’a yüklememen önerilir.
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 📁 Proje Yapısı — Project Structure
-
-<br/>
+LineSight calculates several production quality and maintenance metrics automatically:
 
 ```text
-LineSight/
-│
-├── LineSight_app.py        ← Main desktop application file
-│
-├── README.md               ← Project documentation
-│
-└── requirements.txt        ← Optional dependency list
+Total Inspections
+Pass Count
+Fail Count
+Pass Rate
+Failure Rate
+Total Failure Cost
+Total Downtime
+Average Measurement
+Cp
+Cpk
+Cost per 1000 Units
+Machine Criticality Score
 ```
 
-<br/>
+The machine criticality score is built from a weighted combination of:
 
-Önerilen `requirements.txt` içeriği:
+- Failure rate
+- Failure cost
+- Downtime
+- Process capability penalty based on Cpk
+
+This makes the app useful not only for quality analysis, but also for maintenance prioritization.
+
+---
+
+## Process Capability Logic
+
+LineSight uses standard Cp and Cpk formulas to evaluate process capability.
 
 ```text
-customtkinter
-pandas
-numpy
-matplotlib
-requests
-openpyxl
-reportlab
+Cp = (USL - LSL) / (6σ)
 ```
 
-<br/>
+```text
+Cpk = min((USL - μ) / (3σ), (μ - LSL) / (3σ))
+```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+Interpretation:
 
-## 📌 Kullanılan Veri Yapısı — Expected Data Structure
+| Cpk Value | Meaning |
+|:---:|:---|
+| **Cpk ≥ 1.33** | Capable process |
+| **1.00 ≤ Cpk < 1.33** | Marginal process |
+| **Cpk < 1.00** | Not capable process |
 
-<br/>
+This helps reveal whether a machine is simply producing failures, or whether the process itself is unstable, off-center, or too variable.
 
-LineSight, en azından aşağıdaki iki temel kolona ihtiyaç duyar:
+---
+
+## AI Insight System
+
+LineSight does not depend entirely on AI.
+
+The app first calculates reliable statistics internally. Then, if a Gemini API key is provided, AI is used as a controlled explanation layer.
+
+```text
+Calculated Statistics
+        +
+Machine / Shift / Operator Summaries
+        +
+Cp / Cpk Results
+        ↓
+Gemini AI or Rule-Based Engine
+        ↓
+Actionable Quality & Maintenance Recommendations
+```
+
+If no Gemini API key is entered, the application still works using its built-in rule-based analysis system.
+
+This prevents the app from becoming useless when AI access is unavailable.
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|:---|:---|
+| **Python** | Main programming language |
+| **CustomTkinter** | Desktop user interface |
+| **pandas** | Data cleaning and analysis |
+| **NumPy** | Numerical calculations |
+| **Matplotlib** | Charts and visualizations |
+| **Requests** | Gemini API communication |
+| **OpenPyXL** | Excel file support |
+| **Google Gemini API** | Optional AI-supported analysis |
+
+---
+
+## Expected Data Format
+
+LineSight requires at least these columns:
 
 ```text
 Machine_ID
 Measurement
 ```
 
-Daha kapsamlı analiz için önerilen kolonlar:
+For a more complete analysis, the recommended dataset structure is:
 
 ```text
 Machine_ID
@@ -344,113 +202,159 @@ Failure_Cost
 Downtime_Minutes
 ```
 
-<br/>
-
-<div align="center">
-
-| Column | Meaning |
+| Column | Description |
 |:---|:---|
-| `Machine_ID` | Makine kimliği |
-| `Operator_ID` | Operatör kimliği |
-| `Shift` | Vardiya bilgisi |
-| `Measurement` | Ölçüm değeri |
+| `Machine_ID` | Machine identifier |
+| `Operator_ID` | Operator identifier |
+| `Shift` | Production shift |
+| `Product_Type` | Product category or type |
+| `Measurement` | Quality measurement value |
 | `LSL` | Lower Specification Limit |
 | `USL` | Upper Specification Limit |
-| `Status` | Pass / Fail sonucu |
-| `Failure_Type` | Hata tipi |
-| `Failure_Cost` | Hata maliyeti |
-| `Downtime_Minutes` | Duruş süresi |
+| `Status` | Pass / Fail result |
+| `Failure_Type` | Type of failure or defect |
+| `Failure_Cost` | Cost caused by failed units |
+| `Downtime_Minutes` | Downtime caused by failures |
 
-</div>
+If some optional columns are missing, LineSight fills safe default values where possible.
 
-<br/>
+---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+## How to Run
 
-## 🧠 AI Insight Logic
+```bash
+# Clone the repository
+git clone https://github.com/HuseyincanErgin/LineSight.git
 
-<br/>
+# Go to the project folder
+cd LineSight
 
-LineSight, üretim verisini doğrudan AI modeline göndermek yerine önce güvenilir istatistikleri kendi içinde hesaplar. Daha sonra AI katmanı bu özetlenmiş metrikler üzerinden yorum üretir.
+# Install dependencies
+pip install customtkinter pandas numpy matplotlib requests openpyxl
 
-Bu yaklaşım sayesinde:
-
-- Ham veri yerine karar odaklı özet kullanılır.
-- AI çıktıları daha kontrollü ve tutarlı hale gelir.
-- Öneriler makine, vardiya, operatör, maliyet, Cp/Cpk ve arıza oranı gibi somut metriklere bağlanır.
-- API erişimi olmadığında uygulama kural tabanlı analizle çalışmaya devam eder.
-
-<br/>
-
-<div align="center">
-
-```text
-Calculated KPIs
-      +
-Machine / Shift / Operator Summaries
-      +
-Cp / Cpk Capability Results
-      ↓
-Gemini AI or Rule-Based Engine
-      ↓
-Actionable Maintenance & Quality Recommendations
+# Run the application
+python LineSight_app.py
 ```
 
-</div>
+---
 
-<br/>
+## Demo Login
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+The application includes a simple demo login screen.
 
-## 📊 Proje Etiketleri — Tags
+```text
+Username: admin
+Password: admin
+```
 
-<br/>
+---
+
+## Gemini API Key
+
+Gemini AI usage is optional.
+
+For safer usage, do not hardcode your real API key inside the Python file before uploading to GitHub.
+
+Recommended method:
+
+```bash
+set GEMINI_API_KEY=your_api_key_here
+```
+
+Then run:
+
+```bash
+python LineSight_app.py
+```
+
+If no API key is provided, LineSight continues with its built-in rule-based recommendation engine.
+
+---
+
+## Project Structure
+
+```text
+LineSight/
+│
+├── LineSight_app.py
+│   └── Main desktop application
+│
+├── README.md
+│   └── Project documentation
+│
+└── requirements.txt
+    └── Optional dependency list
+```
+
+Suggested `requirements.txt`:
+
+```text
+customtkinter
+pandas
+numpy
+matplotlib
+requests
+openpyxl
+```
+
+---
+
+## Application Flow
+
+```text
+1. Login to the application
+2. Use demo data or upload CSV / Excel data
+3. Review dashboard KPIs
+4. Analyze machine-level risk
+5. Compare operators and shifts
+6. Evaluate Cp / Cpk process capability
+7. Generate AI-supported insights
+8. Export the final HTML report
+```
+
+---
+
+## Use Case
+
+LineSight can be useful for:
+
+- Production quality monitoring
+- Machine failure analysis
+- Maintenance prioritization
+- Operator and shift comparison
+- Cp/Cpk-based process capability evaluation
+- Industrial engineering analytics projects
+- Quality dashboard demonstrations
+- Decision-support system prototypes
+
+---
+
+## Project Tags
 
 <div align="center">
 
-![Industrial Engineering](https://img.shields.io/badge/Industrial%20Engineering-0f766e?style=for-the-badge)
-&nbsp;
-![Production Quality](https://img.shields.io/badge/Production%20Quality-0891b2?style=for-the-badge)
-&nbsp;
-![Maintenance Analytics](https://img.shields.io/badge/Maintenance%20Analytics-2563eb?style=for-the-badge)
-&nbsp;
-![Process Capability](https://img.shields.io/badge/Process%20Capability-4f46e5?style=for-the-badge)
-&nbsp;
-![Cp Cpk](https://img.shields.io/badge/Cp%20%2F%20Cpk-7c3aed?style=for-the-badge)
-&nbsp;
-![AI Decision Support](https://img.shields.io/badge/AI%20Decision%20Support-9333ea?style=for-the-badge)
-&nbsp;
-![Python Desktop App](https://img.shields.io/badge/Python%20Desktop%20App-0284c7?style=for-the-badge)
-&nbsp;
-![Quality Dashboard](https://img.shields.io/badge/Quality%20Dashboard-0e7490?style=for-the-badge)
+![Industrial Engineering](https://img.shields.io/badge/Industrial%20Engineering-0F766E?style=for-the-badge)
+![Production Analytics](https://img.shields.io/badge/Production%20Analytics-0369A1?style=for-the-badge)
+![Machine Risk](https://img.shields.io/badge/Machine%20Risk-7C3AED?style=for-the-badge)
+![Maintenance Decision Support](https://img.shields.io/badge/Maintenance%20Decision%20Support-4338CA?style=for-the-badge)
+![Quality Control](https://img.shields.io/badge/Quality%20Control-0891B2?style=for-the-badge)
+![Python App](https://img.shields.io/badge/Python%20App-111827?style=for-the-badge)
 
 </div>
 
-<br/>
+---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 👤 Geliştirici — Developer
-
-<br/>
+## Developer
 
 <div align="center">
 
 **Hüseyincan Ergin**  
-*Industrial Engineering Student @ Marmara University*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hüseyincan-ergin)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HuseyincanErgin)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:huseyincanergin@gmail.com)
-
-</div>
+Industrial Engineering Student @ Marmara University
 
 <br/>
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,35:0f766e,70:1e1b4b,100:020617&height=140&section=footer" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hüseyincan%20Ergin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hüseyincan-ergin)
+[![GitHub](https://img.shields.io/badge/GitHub-HuseyincanErgin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HuseyincanErgin)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:huseyincanergin@gmail.com)
 
 </div>
