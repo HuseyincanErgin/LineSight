@@ -1,11 +1,15 @@
 <div align="center">
 
+<img src="assets/linesight-banner.png" alt="LineSight Banner" width="100%">
+
+<br/>
+
 # 🛰️ LineSight
 
 ### Production Quality Intelligence & Maintenance Decision Support
 
 <p>
-  A desktop decision-support system that transforms production inspection data into
+  A Python desktop decision-support system that transforms production inspection data into
   <b>machine risk scores</b>, <b>Cp/Cpk capability insights</b>,
   <b>operator-shift performance signals</b>, and
   <b>AI-supported maintenance actions</b>.
@@ -14,69 +18,62 @@
 <br/>
 
 ![Python](https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=38bdf8)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-1e293b?style=for-the-badge&logo=windowsterminal&logoColor=a78bfa)
-![Pandas](https://img.shields.io/badge/Pandas-312e81?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-164e63?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-075985?style=for-the-badge&logo=chartdotjs&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/Gemini%20AI-6d28d9?style=for-the-badge&logo=google&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-111827?style=for-the-badge&logo=windowsterminal&logoColor=a78bfa)
+![Pandas](https://img.shields.io/badge/Pandas-1e1b4b?style=for-the-badge&logo=pandas&logoColor=ffffff)
+![NumPy](https://img.shields.io/badge/NumPy-164e63?style=for-the-badge&logo=numpy&logoColor=ffffff)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0f766e?style=for-the-badge&logo=plotly&logoColor=ffffff)
+![Gemini AI](https://img.shields.io/badge/Gemini%20AI-6d28d9?style=for-the-badge&logo=google&logoColor=ffffff)
 
 <br/>
 
-![Decision Support](https://img.shields.io/badge/Decision%20Support-0891b2?style=flat-square)
-![Quality Analytics](https://img.shields.io/badge/Quality%20Analytics-0f766e?style=flat-square)
-![Machine Risk](https://img.shields.io/badge/Machine%20Risk-7c3aed?style=flat-square)
-![Cp Cpk](https://img.shields.io/badge/Cp%20%2F%20Cpk-2563eb?style=flat-square)
-![Desktop App](https://img.shields.io/badge/Desktop%20App-111827?style=flat-square)
-![Industrial Engineering](https://img.shields.io/badge/Industrial%20Engineering-334155?style=flat-square)
+![Decision Support](https://img.shields.io/badge/Desktop%20Decision%20Support-0891b2?style=flat-square)
+![Machine Risk](https://img.shields.io/badge/Machine%20Risk%20Analysis-0f766e?style=flat-square)
+![Cp Cpk](https://img.shields.io/badge/Process%20Capability%20(Cp%2FCpk)-2563eb?style=flat-square)
+![Shift Monitoring](https://img.shields.io/badge/Operator%20%26%20Shift%20Monitoring-4f46e5?style=flat-square)
+![AI Insights](https://img.shields.io/badge/AI%20Maintenance%20Insights-7c3aed?style=flat-square)
 
-</div>
+<br/><br/>
 
----
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=960&lines=🏭+Manufacturing+Data+into+Decision+Intelligence;⚙️+Machine+Risk+%7C+Cp%2FCpk+%7C+Shift+Performance;🧠+AI-Supported+Maintenance+Recommendations;📊+From+Inspection+Data+to+Executive+Insight)](https://git.io/typing-svg)
 
-<div align="center">
+<br/>
 
 ```text
-╔════════════════════════════════════════════════════════════════════╗
-║                            LineSight                              ║
-║         Production Quality • Machine Risk • AI Insights            ║
-╠════════════════════════════════════════════════════════════════════╣
-║  Data In      CSV / Excel inspection data                          ║
-║  Core Engine  Quality KPIs + Cp/Cpk + criticality scoring           ║
-║  Intelligence Machine, operator, shift, and process diagnostics     ║
-║  AI Layer     Gemini-supported recommendations or rule-based logic  ║
-║  Output       Executive-style HTML report                           ║
-╚════════════════════════════════════════════════════════════════════╝
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  🏭  Production Line Input  →  KPI Engine  →  Risk Scoring  →  AI Insight   │
+│                                                                               │
+│  CSV / Excel Data   →   Machine & Shift Analysis   →   Cp/Cpk   →   Report   │
+└───────────────────────────────────────────────────────────────────────────────┘
 ```
+
+### **See the line. Understand the risk. Improve the process.**
 
 </div>
 
 ---
 
-## 1. What is LineSight?
+## 1. About the Project
 
 **LineSight** is a Python-based desktop application designed for production quality analysis and maintenance decision support.
 
-It reads production inspection data and helps answer practical manufacturing questions such as:
+The application reads production inspection data, calculates quality and operational KPIs, identifies risky machines, evaluates process capability with **Cp/Cpk**, compares operator and shift performance, and generates AI-supported maintenance recommendations.
 
-> Which machine is creating the highest risk?  
-> Which shift or operator group needs attention?  
-> Is the process capable according to Cp/Cpk?  
-> Which maintenance action should be prioritized first?
+Instead of only showing raw tables, LineSight turns production data into a structured decision story:
 
-Instead of only displaying raw tables, LineSight turns production data into a structured decision story.
+> **Which machine, shift, or process area needs attention first — and why?**
 
 ---
 
-## 2. Why this project matters
+## 2. Project Purpose
 
-In production environments, quality problems usually do not come from a single number.
+In production environments, quality issues are rarely explained by only one metric.
 
 A machine may have a high failure rate.  
-Another one may create fewer failures but higher cost.  
-A shift may look acceptable overall but contain a risky operator-machine combination.  
-A process may still produce passing parts while its Cpk quietly shows instability.
+Another machine may fail less often but create higher cost.  
+A shift may look normal overall but hide a risky operator-machine pattern.  
+A process may still produce passing parts while its **Cpk** quietly shows instability.
 
-LineSight combines these signals into one decision-support flow:
+LineSight combines these signals into one practical decision-support flow.
 
 <div align="center">
 
@@ -99,9 +96,9 @@ flowchart LR
 
 ---
 
-## 3. Main dashboard logic
+## 3. Core Decision Logic
 
-LineSight is built around a simple idea:
+LineSight is built around the idea of converting production signals into action.
 
 <div align="center">
 
@@ -119,7 +116,7 @@ LineSight is built around a simple idea:
 
 ---
 
-## 4. Features
+## 4. Key Features
 
 <div align="center">
 
@@ -137,11 +134,51 @@ LineSight is built around a simple idea:
 
 ---
 
-## 5. Decision engine
+## 5. Application Pages
+
+<div align="center">
+
+| Page | Description |
+|:---|:---|
+| **Dashboard** | Overall KPI cards and general production quality summary |
+| **Machine Analysis** | Machine-level performance, failure rates, costs, downtime, and criticality scores |
+| **Operator / Shift** | Operator and shift performance comparison |
+| **Process Capability** | Cp/Cpk values, capability interpretation, and process behavior |
+| **AI Analysis** | AI-supported questions, insights, and maintenance recommendations |
+| **Raw Data** | Uploaded or demo-generated production data |
+
+</div>
+
+---
+
+## 6. What LineSight Calculates
+
+LineSight automatically calculates several production quality and maintenance metrics.
+
+```text
+Total Inspections
+Pass Count
+Fail Count
+Pass Rate
+Failure Rate
+Total Failure Cost
+Total Downtime
+Average Measurement
+Cp
+Cpk
+Cost per 1000 Units
+Machine Criticality Score
+```
+
+The goal is not only to display what happened, but to help decide what should be done next.
+
+---
+
+## 7. Machine Criticality Score
 
 LineSight does not simply sort machines by failure count.
 
-It creates a broader **machine criticality score** using multiple risk dimensions:
+It creates a broader **machine criticality score** using multiple dimensions:
 
 ```text
 Machine Criticality Score
@@ -155,15 +192,15 @@ Downtime Impact
 Cp/Cpk Capability Penalty
 ```
 
-This matters because the most important machine is not always the one with the most failures.
+This matters because the most important machine is not always the one with the highest number of failures.
 
-Sometimes the real priority is the machine that creates the highest financial loss, longest downtime, or weakest process capability.
+Sometimes the real priority is the machine that creates the highest cost, longest downtime, or weakest process capability.
 
 ---
 
-## 6. Process capability analysis
+## 8. Process Capability Analysis
 
-LineSight uses Cp and Cpk to evaluate whether the production process is capable and centered.
+LineSight uses **Cp** and **Cpk** to evaluate whether the production process is capable and centered.
 
 ```text
 Cp = (USL - LSL) / (6σ)
@@ -186,17 +223,16 @@ Cpk = min(
 
 </div>
 
-Cp tells whether the process spread can theoretically fit within limits.  
-Cpk tells whether the process is actually centered enough to perform well.
+**Cp** shows whether the process spread can theoretically fit within the specification limits.  
+**Cpk** shows whether the process is actually centered enough to perform well.
 
 ---
 
-## 7. AI-supported insight system
+## 9. AI-Supported Insight System
 
 LineSight uses AI carefully.
 
-The application first calculates reliable production statistics internally.  
-Then Gemini AI can be used as an explanation layer to turn those statistics into clear recommendations.
+The application first calculates reliable production statistics internally. Then, if a Gemini API key is provided, AI is used as an explanation layer to turn those statistics into clear recommendations.
 
 <div align="center">
 
@@ -226,33 +262,16 @@ flowchart TD
 
 ---
 
-## 8. Application pages
+## 10. Expected Dataset
 
-<div align="center">
-
-| Page | What you see |
-|:---|:---|
-| **Dashboard** | Overall KPI cards and general production quality summary |
-| **Machine Analysis** | Machine-level performance, failure rates, costs, downtime, and criticality scores |
-| **Operator / Shift** | Operator and shift performance comparison |
-| **Process Capability** | Cp/Cpk values, capability interpretation, and process behavior |
-| **AI Analysis** | AI-supported questions, insights, and maintenance recommendations |
-| **Raw Data** | Uploaded or demo-generated production data |
-
-</div>
-
----
-
-## 9. Expected dataset
-
-LineSight needs at least:
+LineSight requires at least these columns:
 
 ```text
 Machine_ID
 Measurement
 ```
 
-For a complete analysis, the recommended dataset structure is:
+For a more complete analysis, the recommended dataset structure is:
 
 ```text
 Machine_ID
@@ -290,11 +309,11 @@ If optional columns are missing, LineSight tries to fill safe default values whe
 
 ---
 
-## 10. Tech stack
+## 11. Tech Stack
 
 <div align="center">
 
-| Technology | Role in the project |
+| Technology | Role in the Project |
 |:---|:---|
 | **Python** | Main programming language |
 | **CustomTkinter** | Desktop application interface |
@@ -309,7 +328,7 @@ If optional columns are missing, LineSight tries to fill safe default values whe
 
 ---
 
-## 11. How to run
+## 12. Installation
 
 ```bash
 # Clone the repository
@@ -321,13 +340,13 @@ cd LineSight
 # Install required libraries
 pip install customtkinter pandas numpy matplotlib requests openpyxl
 
-# Run the app
+# Run the application
 python LineSight_app.py
 ```
 
 ---
 
-## 12. Demo login
+## 13. Demo Login
 
 LineSight includes a simple demo login screen.
 
@@ -338,9 +357,9 @@ Password: admin
 
 ---
 
-## 13. Gemini API key setup
+## 14. Gemini API Key Setup
 
-Gemini AI is optional.
+Gemini AI usage is optional.
 
 For security, do not upload your real API key to GitHub.
 
@@ -356,14 +375,17 @@ Then run:
 python LineSight_app.py
 ```
 
-If no API key is provided, the app continues with rule-based analysis.
+If no API key is provided, the application continues with its built-in rule-based analysis system.
 
 ---
 
-## 14. Project structure
+## 15. Project Structure
 
 ```text
 LineSight/
+│
+├── assets/
+│   └── linesight-banner.png
 │
 ├── LineSight_app.py
 │   └── Main desktop application
@@ -388,7 +410,22 @@ openpyxl
 
 ---
 
-## 15. Example decision output
+## 16. Application Flow
+
+```text
+1. Login to the application
+2. Use demo data or upload CSV / Excel data
+3. Review dashboard KPIs
+4. Analyze machine-level risk
+5. Compare operators and shifts
+6. Evaluate Cp / Cpk process capability
+7. Generate AI-supported insights
+8. Export the final HTML report
+```
+
+---
+
+## 17. Example Decision Output
 
 LineSight is designed to produce recommendations like:
 
@@ -408,7 +445,7 @@ It works like a small production analyst that turns quality data into maintenanc
 
 ---
 
-## 16. Project use cases
+## 18. Use Cases
 
 LineSight can be used for:
 
@@ -424,22 +461,26 @@ LineSight can be used for:
 
 ---
 
-## 17. Project identity
+## 19. Why LineSight?
 
 <div align="center">
 
 ```text
 LineSight is built for one core purpose:
 
-Not just seeing the line.
+Not just seeing the production line.
 Understanding where the line is losing quality, time, and money.
 ```
 
 </div>
 
+LineSight combines quality control, maintenance analytics, process capability, and AI-supported interpretation in a single desktop application.
+
+It is designed as a practical industrial engineering project that connects data analysis with real production decision-making.
+
 ---
 
-## 18. Tags
+## 20. Project Tags
 
 <div align="center">
 
@@ -456,7 +497,7 @@ Understanding where the line is losing quality, time, and money.
 
 ---
 
-## 19. Developer
+## 21. Developer
 
 <div align="center">
 
