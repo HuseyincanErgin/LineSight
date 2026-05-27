@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/HuseyincanErgin/LineSight/main/linesight_banner.svg" alt="LineSight" width="100%">
 </p>
@@ -103,6 +104,27 @@ Missing optional columns are filled with safe defaults where possible.
 
 ---
 
+## Sample Dataset
+
+A ready-to-use Excel sample dataset is included so users can test LineSight without preparing their own data first.
+
+**Sample file:** `linesight_sample_dataset.xlsx`
+
+This dataset was used while developing and testing the app. It contains **500 production inspection records** and is suitable for trying the dashboard, machine analysis, operator/shift comparison, process capability analysis, AI-supported insights, and report export features.
+
+| Column Group | Included Columns |
+|:---|:---|
+| **Part & Batch Info** | `PartID`, `BatchNo`, `ProductionDate` |
+| **Production Context** | `Shift`, `Operator`, `MachineID` |
+| **Measurements** | `Length1(mm)`, `Length2(mm)`, `Width(mm)` |
+| **Specification Limits** | `LSL`, `USL` |
+| **Quality Result** | `PassFail`, `InspectionNotes` |
+| **Operational Impact** | `CostPerUnit(USD)`, `Downtime(min)` |
+
+Users can upload this sample Excel file into the app and explore how LineSight converts raw inspection data into KPIs, machine risk scores, Cp/Cpk results, and maintenance-focused recommendations.
+
+---
+
 ## 🛠️ Teknoloji — Tech Stack
 
 <p align="center">
@@ -136,22 +158,30 @@ Bu projede yazılım dili olarak **Python** kullanılmıştır. Arayüz, veri i�
 
 ---
 
-## Installation
+## Project Status
 
-```bash
-git clone https://github.com/HuseyincanErgin/LineSight.git
-cd LineSight
-pip install customtkinter pandas numpy matplotlib requests openpyxl
-python LineSight_app.py
-```
+This repository currently presents the **LineSight** project concept, feature scope, technology stack, and analysis logic.
 
-**Demo login:** `admin` / `admin`
+The Python desktop application source code will be added after the final file organization and testing process. Until then, this README focuses on explaining what the project does, which technologies are used, and how the system is designed.
 
-**Gemini (optional):** set a key before running, otherwise the built-in rule-based engine is used.
+| Repository Item | Description |
+|:---|:---|
+| **README.md** | Project explanation, features, formulas, tech stack and output logic |
+| **linesight_banner.svg** | Visual banner used at the top of the repository |
+| **linesight_sample_dataset.xlsx** | Sample Excel dataset that users can upload to test the analysis flow |
+| **Python source code** | Will be added after final cleanup and testing |
 
-```bash
-set GEMINI_API_KEY=your_api_key_here
-```
+---
+
+## Suggested Next Additions
+
+| Addition | Why it helps |
+|:---|:---|
+| **Screenshots** | Shows the interface before users run the app |
+| **Sample Dataset** | Included as `linesight_sample_dataset.xlsx` so users can test the app with ready data |
+| **requirements.txt** | Makes dependency installation easier later |
+| **Source Code** | Allows others to run the desktop application locally |
+| **LICENSE** | Clarifies how others can use the project |
 
 ---
 
