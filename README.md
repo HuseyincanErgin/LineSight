@@ -112,14 +112,9 @@ A ready-to-use Excel sample dataset is included so users can test LineSight with
 
 This dataset was used while developing and testing the app. It contains **500 production inspection records** and is suitable for trying the dashboard, machine analysis, operator/shift comparison, process capability analysis, AI-supported insights, and report export features.
 
-| Column Group | Included Columns |
-|:---|:---|
-| **Part & Batch Info** | `PartID`, `BatchNo`, `ProductionDate` |
-| **Production Context** | `Shift`, `Operator`, `MachineID` |
-| **Measurements** | `Length1(mm)`, `Length2(mm)`, `Width(mm)` |
-| **Specification Limits** | `LSL`, `USL` |
-| **Quality Result** | `PassFail`, `InspectionNotes` |
-| **Operational Impact** | `CostPerUnit(USD)`, `Downtime(min)` |
+[![Download Sample Dataset](https://img.shields.io/badge/Download-Sample%20Dataset-22c55e?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/HuseyincanErgin/LineSight/raw/main/linesight_sample_dataset.xlsx)
+
+**Sample file:** [`linesight_sample_dataset.xlsx`](https://github.com/HuseyincanErgin/LineSight/raw/main/linesight_sample_dataset.xlsx)
 
 Users can upload this sample Excel file into the app and explore how LineSight converts raw inspection data into KPIs, machine risk scores, Cp/Cpk results, and maintenance-focused recommendations.
 
