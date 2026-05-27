@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/HuseyincanErgin/LineSight/main/linesight_banner.svg" alt="LineSight" width="100%">
 </p>
@@ -101,6 +100,24 @@ LSL · USL · Status · Failure_Type · Failure_Cost · Downtime_Minutes
 ```
 
 Missing optional columns are filled with safe defaults where possible.
+
+---
+
+## 🛠️ Teknoloji — Tech Stack
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="72">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-FULL%20PROJECT-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/DESKTOP%20APP-CustomTkinter-111827?style=for-the-badge&logo=windowsterminal&logoColor=white">
+  <img src="https://img.shields.io/badge/DATA%20ANALYSIS-pandas%20%7C%20NumPy-0f766e?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/VISUALIZATION-Matplotlib-1e293b?style=for-the-badge&logo=plotly&logoColor=white">
+  <img src="https://img.shields.io/badge/NO%20SEPARATE%20BACKEND-Python%20Based-374151?style=for-the-badge">
+</p>
+
+Bu projede yazılım dili olarak **Python** kullanılmıştır. Arayüz, veri işleme, KPI hesaplama, grafik üretimi, rapor oluşturma ve AI destekli analiz akışı Python ekosistemi üzerinde geliştirilmiştir. Projenin amacı ayrı bir web frontend/backend sistemi kurmak değil; üretim kalite verilerini analiz eden, desktop application mantığında çalışan Python tabanlı bir karar destek aracı geliştirmektir.
 
 ---
 
